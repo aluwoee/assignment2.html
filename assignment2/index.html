@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+
+    <!-- Task 2: Internal CSS -->
+    <style>
+        body {
+            background-color: #ff9cf5;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #dba4ff;
+            text-align: center;
+        }
+    </style>
+
+    <!-- Task 3: External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Task 6: Favicon -->
+    <link rel="icon" type="image/png" href="favicon.jpg">
+</head>
+<body>
+    <!-- Task 5: ID vs Class -->
+    <h1 id="main-heading">Aluana Muslimova</h1>
+    <h2>Astana IT University</h2>
+
+    <div class="about-layout">
+        <section class="hobbies">
+            <h3>My Hobbies</h3>
+            <ol>
+                <li class="highlight">Singing</li>
+                <li class="highlight">Listening to music and dance</li>
+                <li class="highlight">Watching movies</li>
+            </ol>
+        </section>
+
+        <section class="about-me">
+            <h3>About Me</h3>
+            <!-- Task 1: Inline CSS -->
+            <p style="color: rgb(255, 129, 226); font-weight: bold;">
+                Hello! My name is Aluana. I'm a 2nd year student at Astana IT University. 
+                I like music, watching k-dramas, and spending time with my family and friends.
+            </p>
+        </section>
+
+        <section class="websites">
+            <h3>Favorite Websites</h3>
+            <ul>
+                <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+                <li><a href="https://www.spotify.com" target="_blank">Spotify</a></li>
+                <li><a href="https://www.tiktok.com" target="_blank">TikTok</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <h3>My Photo</h3>
+    <img src="aluana.jpg" alt="My Photo" class="profile-img">
+
+    <h3>My Weekly Schedule</h3>
+    <table class="schedule">
+        <tr>
+            <th>Subject</th>
+            <th>Day</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>Software Design Patterns</td>
+            <td>Monday</td>
+            <td>14:00</td>
+        </tr>
+        <tr>
+            <td>Russian Language</td>
+            <td>Wednesday</td>
+            <td>14:00</td>
+        </tr>
+        <tr>
+            <td>Web Technologies 1</td>
+            <td>Friday</td>
+            <td>08:00</td>
+        </tr>
+    </table>
+
+    <!-- Task 8: Box Model -->
+    <p class="box-model">Today I feel happy 😊, motivated 💪, and a lil bit sleepy 😴.</p>
+
+    <h3>Contact Me</h3>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color">
+
+        <input type="submit" value="Submit" class="btn">
+    </form>
+
+    <!-- Task 9: Positioning -->
+    <div class="Examples">
+        <h3>Positioning Examples</h3>
+        <div class="static">Static box</div>
+        <div class="relative">Relative box</div>
+        <div class="absolute">Absolute box</div>
+    </div>
+
+    <!-- Task 11: Float and Clear -->
+    <div class="Examples">
+        <h3>Float and Clear Examples</h3>
+        <div class="left">Left floated box</div>
+        <div class="right">Right floated box</div>
+        <div class="clear">Clear float box</div>
+    </div>
+</body>
+</html>

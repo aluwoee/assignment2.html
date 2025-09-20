@@ -1,0 +1,155 @@
+/* Task 4: Selectors */
+p {
+    color: #3a3a3a;
+}
+.highlight {
+    background: #ffb3c7;   
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+#main-heading {
+    color: #6d597a;
+    text-align: center;
+}
+
+/* Task 7: Divs  */
+.about-layout {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+.about-layout section {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* photo */
+.profile-img {
+    display: block;
+    margin: 15px auto;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+/* table */
+.schedule {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 80%;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.schedule th, .schedule td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+.schedule th {
+    background: #e2ece9;
+    font-weight: bold;
+}
+
+/* Task 8: Box Model */
+.box-model {
+    border: 2px dashed #cdb4db;
+    margin: 20px auto;
+    padding: 15px;
+    background: #f8edeb;
+    border-radius: 6px;
+    max-width: 420px;
+    text-align: center;
+}
+
+/* Task 9: Positioning */
+.static {
+    position: static;
+    background: #d8e2dc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+}
+.relative {
+    position: relative;
+    left: 15px;
+    background: #bde0fe;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+}
+.absolute {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #ffc8dd;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/* Task 10: Sizing */
+h1 {
+    font-size: 2.2rem;
+}
+h2 {
+    font-size: 1.6rem;
+}
+
+/* Task 11: Float and Clear */
+.left {
+    float: left;
+    width: 40%;
+    background: #caffbf;
+    padding: 10px;
+    border-radius: 6px;
+}
+.right {
+    float: right;
+    width: 40%;
+    background: #fdffb6;
+    padding: 10px;
+    border-radius: 6px;
+}
+.clear {
+    clear: both;
+    background: #f0efeb;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+/* buttons */
+.btn {
+    background: #a390e4;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #7d5ba6;
+}
+
+/* Exaples */
+.examples {
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgb(255, 148, 230);
+}
+.examples h3 {
+    text-align: center;
+    color: #6d597a;
+}
+
+
